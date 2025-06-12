@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css">
+    <style>
+        .foto-profil {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="vh-100 d-flex align-items-center bg-light text-center" data-aos="fade-in">
+        <div class="container">
+            <section class="profil">
+                <img src="FOTO PROFIL.jpg" alt="Foto Profil" class="foto-profil">
+            </section>
+            <h1 class="display-4">Selamat datang di Portfolio saya</h1>
+            <p class="lead">saya muhammad faiq habiburrahman.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-white" data-aos="fade-right">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h2>Tentang Saya</h2>
+                    <p>Halo! Nama saya Muhammad Faiq Habiburrahman, tetapi teman-teman sering memanggil saya Faiq. Saya adalah seorang siswa SMK yang mengambil jurusan pengembangan gim. Dalam perjalanan belajar saya, saya telah mendalami berbagai materi, termasuk coding aplikasi, web development, desain 2D, serta desain dan 3D Modeling. Di portofolio ini, saya ingin menampilkan karya terbaik saya, terutama di bidang desain 2D, yang menjadi fokus utama saya. Saya percaya bahwa setiap karya memiliki potensi untuk terus berkembang, dan saya berkomitmen untuk selalu belajar dan berusaha menjadi lebih baik setiap harinya. Bagi saya, kreativitas adalah perjalanan tanpa batas, dan setiap tantangan adalah peluang untuk menciptakan sesuatu yang luar biasa.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <!-- Resume -->
+                <div class="col-lg-6">
+                    <h3>Resume</h3>
+                    <p><strong>Smp Negeri 1 Grogol (2020 - 2023)</strong>
+                    <p>Saya menyelesaikan pendidikan dasar saya di SMP Negeri 1 Grogol, di mana saya mulai mengembangkan minat saya dalam teknologi dan desain.</p>
+                    <p><strong>Smk Negeri 1 Nganjuk (2023 - sekarang) </strong>
+                    <p>Saat ini, saya melanjutkan pendidikan saya di SMK Negeri 1 Nganjuk, mengambil jurusan pengembangan gim. Di sini, saya belajar berbagai keterampilan yang relevan dengan industri game dan teknologi.</p>
+                </div>
+                <!-- Skills -->
+                <div class="col-lg-6">
+                    <h3>Skills</h3>
+                    <p>3D Modeling</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-primary" style="width: 0%;">70%</div>
+                    </div>
+                    <p>Graphic Design</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" style="width: 60%;">60%</div>
+                    </div>
+                    <p>Html</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-warning" style="width: 50%;">50%</div>
+                    </div>
+                    <p>Java Script</Script></p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-danger" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center" data-aos="fade-up">Project Blender</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+                    <div class="card">
+                        <a href="Cover Table.jpg" data-lightbox="portfolio" data-title="Project 1">
+                            <img src="Cover Table.jpg" class="card-img-top img-fluid" alt="Project 1">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">cover table 3d.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card">
+                        <a href="Magnifying Glass.jpg" data-lightbox="portfolio" data-title="Project 2">
+                            <img src="Magnifying Glass.jpg" class="card-img-top img-fluid" alt="Project 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Ini adalah object kaca pembesar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card">
+                        <a href="Minicraft.jpg" data-lightbox="portfolio" data-title="Project 3">
+                            <img src="Minicraft.jpg" class="card-img-top img-fluid" alt="Project 3">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Karakter game minecraft.</p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-center" data-aos="fade-up">Project Photoshop</h2>
+                 <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="card">
+                        <a href="photoshop1.jpg" data-lightbox="portfolio" data-title="Project 4">
+                            <img src="photoshop1.jpg" class="card-img-top img-fluid" alt="Project 4">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Project 4</h5>
+                            <p class="card-text">Ini adalah project pertama saya menggunakan Photoshop dengan di bimbing guru saya,project saya ini bertema poster game.</p>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="card">
+                        <a href="photoshop2.jpg" data-lightbox="portfolio" data-title="Project 5">
+                            <img src="photoshop2.jpg" class="card-img-top img-fluid" alt="Project 5">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Project 5</h5>
+                            <p class="card-text">ini adalah project kedua saya menggunakan Photoshop,sama seperti sebelumnya project saya bertema poster game/loading screen game,saya membuat gaya seperti ini terinspirasi oleh game sepak bola ternama yaitu pes 2021.</p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-center" data-aos="fade-up">Project Unity</h2>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="card">
+                        <a href="unity1.jpg" data-lightbox="portfolio" data-title="Project 6">
+                            <img src="unity1.jpg" class="card-img-top img-fluid" alt="Project 6">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Project 6</h5>
+                            <p class="card-text">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="card">
+                        <a href="unity2.jpg" data-lightbox="portfolio" data-title="Project 7">
+                            <img src="unity2.jpg" class="card-img-top img-fluid" alt="Project 7">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Project 7</h5>
+                            <p class="card-text">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="card">
+                        <a href="unity3.jpg" data-lightbox="portfolio" data-title="Project 8">
+                            <img src="unity3.jpg" class="card-img-top img-fluid" alt="Project 8">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Project 8</h5>
+                            <p class="card-text">.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-white">
+        <div class="container" data-aos="fade-up">
+            <h2 class="text-center">Contact Me</h2>
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <p><i class="fas fa-envelope"></i> muhammadfaiqhabiburrahman@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +62 812-3040-2780</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Ds.Kedungsari,Kec.Tarokan,Kab.Kediri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-light">
+        <div class="container">
+            <p>&copy; 2025 MyPortfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 1000,
+                once: true
+            });
+        });
+    </script>
+</body>
+</html>
